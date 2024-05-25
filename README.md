@@ -19,10 +19,3 @@ React Resume is a responsive and customizable CV/Resume template designed to hel
 
 1. Run `npm run dev` to start the app.
 2. Open your browser and navigate to `http://localhost:5173`.
-
-### TODO 📝
-
-- ✅ Add Light / Dark mode.
-- ✅ Migrate from CRA to VITE.
-- ✅ Add PDF generation.
-- 🟡 Improve project structure.
