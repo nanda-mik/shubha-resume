@@ -1,56 +1,53 @@
 export const Data = {
   profile: {
-    name: "Matias Lagos",
-    ocupation: "FullStack Software Developer",
-    location: "Santiago, Chile",
-    email: "lagos.matias25@gmail.com",
-    telephone: "+56 971999705",
-    image: "images/me.webp",
+    name: "Shubhadarshie Nanda",
+    ocupation: "Software Development Engineer 2",
+    location: "Noida, India",
+    email: "shubhadarshie.nanda@gmail.com",
+    telephone: "+91 8917554436",
+    image: "images/me.jpeg",
   },
   aboutMe: {
-    label: "Perfil",
+    label: "Profile",
     description:
-      "Analista Programador, capacitado para desarrollar aplicaciones informáticas en diversas tecnologías y múltiples lenguajes de programación, aplicando metodologías ágiles de desarrollo, incluyendo identificación de necesidades y diseños de sistemas basados en modelos de desarrollo.",
+      "Building scalable backend systems with a focus on clean architecture and design. Learning front-end and devops.",
   },
   skills: {
-    technicalLabel: "Tecnologías",
+    technicalLabel: "Technologies",
     softLabel: "Skills",
     technicalSkills: [
-      "Angular",
+      "Python",
+      "JavaScript",
+      "Django(DRF)",
       "React",
-      "Java",
       "Nodejs",
-      "Spring Boot",
-      "Nestjs",
-      "APIM",
-      "SQL",
+      "PostgreSql",
+      "MongoDB",
+      "Redis",
+      "Elastic",
       "Git",
+      "AWS",
+      "Docker",
+      "Kubernetes"
     ],
     softSkills: [
-      "Capacidad de análisis",
-      "Resolución de Problemas",
-      "Pensamiento Crítico",
-      "Trabajo en equipo",
-      "Comunicación",
-      "Proactividad",
-      "Creatividad",
-      "Autodidacta",
-      "Mentoria",
+      "Ownership",
+      "Mentoring"
     ],
   },
   socialMedia: {
     label: "SOCIAL",
     social: [
       {
-        label: "Visitar el perfil de Matias Lagos en LinkedIn",
+        label: "Visit my LinkedIn",
         name: "linkedin",
-        url: "https://www.linkedin.com/in/mlagosg",
+        url: "https://www.linkedin.com/in/shubhadarshie-nanda-753aa8163/",
         className: "bxl-linkedin-square",
       },
       {
-        label: "Visitar el perfil de Matias Lagos en GitHub",
+        label: "Visit my GitHub",
         name: "github",
-        url: "https://github.com/Maaato",
+        url: "https://github.com/nanda-mik",
         className: "bxl-github",
       },
     ],
@@ -58,76 +55,77 @@ export const Data = {
   experience: {
     works: [
       {
-        title: "FULL-STACK DEVELOPER",
-        period: "Oct. 2021 - Actualidad",
-        company: "Banco Ripley",
+        title: "SDE 2",
+        period: "Jan. 2024 - Present",
+        company: "Innovaccer",
         description: [
-          "Desarrollo y mejora continua de microservicios REST en Java y Node.js(JS/TS).",
-          "Desarrollo y mejora continua de PWA en las tecnologías Angular, Ionic y Cordova.",
-          "Canalización CI/CD con Bitbucket, Jenkins y AWS como infraestructura."
+          "Led and developed a microservice for patients and cohorts, handling all patient fetching logic, consent management module for patients, acl and handling of EMPI merge in VBC health world.",
+          "Refactored and optimised old Microsoft automate flows to improve time & efficiency.",
+          "Developed a URL shortener service on AWS Lambda with DynamoDB, deployed centrally for the organisation. Wrote a lightweight Express server, capable of handling predicted traffic as it is private to the organisation."
         ],
       },
       {
-        title: "FULL-STACK DEVELOPER",
-        period: "Oct. 2019 - Oct. 2021",
-        company: "Altiuz",
+        title: "SDE 1 & SDE Intern",
+        period: "Jul. 2022 - Dec. 2023 | Jan 2022 - Jun. 2022",
+        company: "Innovaccer",
         description: [
-          "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
-          "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+          "Collaborated with the team to develop a bulk solution for outreach, increasing our capability from 10k/day to 10k per hour. The project involved creating resiliency and self-healing solutions for async tasks, developing bulk support for APIs while ensuring backward compatibility, and standardising/benchmarking pods cpu/memory limit & request.",
+          "Independently led and developed a full-stack feature, an AI-feature template creation, integrated with Azure-GPT 3.5 model. Developed DRF APIs with prompts for the template body & subject, and built frontend components using React, which includes chatbot functionality and other prompt features.",
+          "Created a common backend library for our five microservice. Developed storage mixin for Django apps with Amazon S3 & Azure Blob Storage.",
+          "Integrated communication solutions with vendors such as PostGrid for letters and Twilio for voice/SMS.",
+          "Built a phone number-landline check & email validation feature for the product, integrating with Zerobounce & Twilio.",
+          "Developed health & sanity checks for a seamless deployment process on a new customer."
+        ],
+      },
+      {
+        title: "Full stack Teaching Assisstant",
+        period: "Jan 2021 - Dec. 2021",
+        company: "Crio",
+        description: [
+          " Conducted instructional sessions on MERN stack. Resolved student queries in collaboration with engineering and content delivery teams."
+        ],
+      },
+      {
+        title: "Web Developer Intern",
+        period: "Jul. 2020 - Aug. 2020",
+        company: "StartupTalky",
+        description: [
+          "Developed a full-stack web scraper and deployed it on docker. Used Nodejs(Express) for backend and Reactjs for frontend. Implemented efficient webpage scraping from xml tree using Cheerio and used MongoDB as the database.",
         ],
       },
     ],
     academic: [
       {
-        career: "Técnico de Nivel Superior Analista Programador",
-        date: "2019",
-        institution: "Universidad Tecnológica de Chile INACAP",
+        career: "Bachelor of Engineering in Information Technology",
+        date: "2018-2022",
+        institution: "IIIT Bhubaneswar",
       },
     ],
-    proyects: [
+    Projects: [
       {
-        name: "Onboarding Digital",
-        company: "Banco de Chile",
-        period: "Nov. 2019 - Ene. 2020",
+        name: "Medico App- Hackathon Project(Finalist)",
+        company: "",
+        period: "",
         description: [
-          "Control, desarrollo, securitización y despliegue de APIs en plataforma IBM API Connect.",
+          "A progressive web app for both doctors and patients. Medico, where people can get monitored by the doctor and consult for better health",
         ],
       },
       {
-        name: "Captación Digital",
-        company: "Banco Ripley",
-        period: "Ene. 2020 - Feb. 2020",
+        name: "Examination Management System",
+        company: "",
+        period: "",
         description: [
-          "Control, desarrollo y securitización de APIs en plataforma IBM API Connect.",
-          "Desarrollo frontend en Angular para el consumo de Web Services SOAP/REST apuntando a ambientes DEV/PRE-PROD/PROD como simulación.",
+          "Developed a website where student can check room and exam schedule. Tech stack- ExpressJs & MySql with server-side rendering.",
         ],
       },
       {
-        name: "Agendamiento Remoto",
-        company: "Gobierno de Chile",
-        period: "Mar. 2020 - May. 2020",
+        name: "ourApp",
+        company: "",
+        period: "",
         description: [
-          "Desarrollo frontend y mobile con las tecnologias de Angular 6 e Ionic 4 para el agendamiento de horas en centros a lo largo de todo Chile.",
+          "Developed features like login, signup, sending emails, payment gateway, post feeds & chatbox using websocket. Tech stack- Nodejs & MongoDB",
         ],
-      },
-      {
-        name: "Altiuz Report Dynamic",
-        company: "Altiuz",
-        period: "Jun. 2020 - Jul. 2020",
-        description: [
-          "Desarrollo de servicio Java para la generación unitaria de documentos, sin la necesidad de tener almacenada la información del mismo en una fuente de datos.",
-        ],
-      },
-      {
-        name: "Desarrollos Tigo",
-        company: "Computec S.A.S",
-        period: "Ago. 2020 - Dic 2020",
-        description: [
-          "Desarrollo Java/Spring Boot de Web Service API REST para consulta y descarga de documentos almacenados en repositorios IBM CMOD.",
-          "Desarrollo Java CRON para transferencia de documentos XML hacia servidor SFTP.",
-          "Desarrollo Java CRON para carga de documentos PDFs hacia Azure Blob Storage.",
-        ],
-      },
+      }
     ],
   },
 };

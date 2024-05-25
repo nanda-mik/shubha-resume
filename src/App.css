@@ -94,8 +94,8 @@ img {
 body.dark-theme {
   --title-color: #eceff4;
   --text-color: #b5c4db;
-  --container-color: #2e3440;
-  --container-color-alt: #3b4252;
+  --container-color: #111d35;
+  --container-color-alt: #283450;
   --body-color: #242933;
 }
 

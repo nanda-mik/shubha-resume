@@ -5,7 +5,6 @@ React Resume is a responsive and customizable CV/Resume template designed to hel
 ## Features 🌟
 
 - Light / Dark mode 🌗
-- Snowflakes mode ❄️
 - Fully customizable: Edit the `data.js` file with your personal information.
 - Generate a CV in PDF format in Light/Dark mode. (<kbd>Cmd/Ctrl</kbd> + <kbd>P</kbd>)
 
@@ -15,18 +14,17 @@ React Resume is a responsive and customizable CV/Resume template designed to hel
 
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
-3. Run `yarn install` to install the project dependencies.
+3. Run `npm install` to install the project dependencies.
 4. Edit the `Schemas/Data.js` file with your personal information.
 
 ### Running the App 🏃
 
-1. Run `yarn dev` or `npm run dev` to start the app.
+1. Run `npm run dev` to start the app.
 2. Open your browser and navigate to `http://localhost:5173`.
 
 ### TODO 📝
 
 - ✅ Add Light / Dark mode.
-- ✅ Add Snowflakes mode.
 - ✅ Migrate from CRA to VITE.
 - ✅ Add PDF generation.
 - 🟡 Improve project structure.
