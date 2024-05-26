@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react";
-import Particles from "react-particles-js";
-import { ParticlesParams } from "../Schemas/Particles";
 
 export const Options = () => {
   var { lsTheme, lsIcon } = "";
@@ -27,7 +25,6 @@ export const Options = () => {
 
   return (
     <div className="home__options no-print" id="resume__options">
-      <Particles params={ParticlesParams} />
       <i
         className={`bx ${icon} change-theme`}
         title="Toggle Theme"
