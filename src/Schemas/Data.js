@@ -59,9 +59,10 @@ export const Data = {
         period: "Jan. 2024 - Present",
         company: "Innovaccer",
         description: [
-          "Led and developed a microservice for patients and cohorts, handling all patient fetching logic, consent management module for patients, acl and handling of EMPI merge in VBC health world.",
+          "Developed a schema-driven UI for contracts management, enabling payers and providers to input their terms and compare benefits. This UI dynamically generates the appropriate interface elements based on the schema provided by the backend.",
+          " Led and developed a module for patients consents, handling all patient fetching logic & consent management for different channels. Also developed ACL feature for patients.",
           "Refactored and optimised old Microsoft automate flows to improve time & efficiency.",
-          "Developed a URL shortener service on AWS Lambda with DynamoDB, deployed centrally for the organisation. Wrote a lightweight Express server, capable of handling predicted traffic as it is private to the organisation."
+          " Developed a URL shortener service using cloudformation stack with resources like AWS Lambda, Api gateway & DynamoDB, deployed centrally for the organization."
         ],
       },
       {
